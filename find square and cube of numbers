@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main
+{
+    static Scanner sc=new Scanner(System.in);
+    public static void main(String [] args)
+    {
+        System.out.println("enter the number");
+        int num=sc.nextInt();
+        int square=(int) Math.pow(num,2);
+        int cube= (int) Math.pow(num,3);
+        System.out.println("Square of "+num+" is " +square);
+        System.out.println("cube of "+num+" is " +cube);
+    }
+}
